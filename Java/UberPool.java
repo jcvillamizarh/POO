@@ -1,5 +1,3 @@
-import POO.Java.Car;
-
 public class UberPool extends Car {
     String brand;
     String model;

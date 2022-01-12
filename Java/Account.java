@@ -1,13 +1,9 @@
-package POO.Java;
-
 public class Account {
     Integer id;
     String name;
     String document;
     String email;
     String password;
-
-    public Account(){}
 
     public Account(String name, String document) {
         this.name = name;
