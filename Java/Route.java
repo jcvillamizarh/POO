@@ -6,4 +6,12 @@ public class Route {
     Integer id;
     ArrayList<Double> start;
     ArrayList<Double> end;
+
+    public Route(){}
+
+    public Route(Integer id, ArrayList<Double> start, ArrayList<Double> end) {
+        this.id = id;
+        this.start = start;
+        this.end = end;
+    }
 }
